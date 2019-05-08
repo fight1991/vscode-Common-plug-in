@@ -48,7 +48,26 @@
 			Vue 2 Snippets：vue的一些快捷方式的插件
 
 			Vetur： vue语法高亮的插件
-
 	
+<!-- 	  代码片段配置 -->
+
+			"files.autoSave": "off",
+			"editor.tabSize": 2,
+			"search.followSymlinks": false,
+			"eslint.autoFixOnSave": true,
+			"eslint.validate": [
+				"javascript",
+				"javascriptreact",
+				{
+				"language": "html",
+				"autoFix": true
+				},
+				{
+				"language": "vue",
+				"autoFix": true
+				}
+			],
+			"breadcrumbs.enabled": true,
+			"vetur.validation.template": false
 </body>
 </html>
